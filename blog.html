@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-post {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .blog-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .blog-content {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .comment-section {
+            margin-top: 20px;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .comment-author {
+            font-weight: bold;
+        }
+
+        .comment-text {
+            margin-top: 5px;
+        }
+
+        .comment-form {
+            margin-top: 20px;
+        }
+
+        .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            resize: vertical;
+        }
+
+        .comment-form button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .comment-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blog-post">
+            <h1 class="blog-title">Sample Blog Post Title</h1>
+            <p class="blog-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget metus tincidunt, auctor sapien ut, feugiat nisl.
+                Fusce vel neque nec ex malesuada tempus.
+            </p>
+        </div>
+
+        <div class="comment-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <span class="comment-author">John Doe:</span>
+                <p class="comment-text">Great post!</p>
+            </div>
+
+            <div class="comment">
+                <span class="comment-author">Jane Smith:</span>
+                <p class="comment-text">I found this very informative.</p>
+            </div>
+
+            <div class="comment-form">
+                <h3>Add a Comment</h3>
+                <form>
+                    <textarea placeholder="Your comment here..." rows="4"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
